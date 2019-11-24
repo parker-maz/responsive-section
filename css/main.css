@@ -31,7 +31,9 @@ img {
   background-color: #e5c30a;
   position: relative;
   display: flex;
-  padding: 1rem 1rem 0;
+  justify-content: space-around;
+  padding: 1.3rem 1.3rem 0;
+  margin: 0 auto;
 }
 
 .section-body {
@@ -41,6 +43,7 @@ img {
   left: 0;
   background-color: #e5c30a;
   padding: 0 1.3rem 1.3rem;
+  max-width: 45em;
 }
 
 h1 {
@@ -51,4 +54,18 @@ h1 {
 p {
   font-size: 1rem;
   margin: 0;
+}
+
+.section-letter,
+.section-icon {
+  max-width: 9em;
+}
+
+@media only screen and (win-width: 25em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
 }
