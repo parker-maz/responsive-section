@@ -15,3 +15,12 @@ html {
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
