@@ -4,6 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font: 100%/1.3 #000;
 }
 
 *, *::before, *::after {
@@ -23,4 +24,33 @@ body {
 img {
   width: 100%;
   display: block;
+}
+
+.wrapper {
+  background-color: #e5c30a;
+  position: relative;
+  display: flex;
+}
+
+.section-body {
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  background-color: #e5c30a;
+}
+
+h1 {
+  z-index: 2;
+}
+
+.setion-letter {
+  z-index: 5;
+}
+
+.img-flex {
+  z-index: 4;
+}
+
+.section-icon {
+  z-index: 3;
 }
