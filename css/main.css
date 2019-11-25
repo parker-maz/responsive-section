@@ -4,8 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 sans-serif;
-  font-family: "Noto Sans";
+  font: normal 100%/1.3 "Noto Sans";
 }
 
 *, *::before, *::after {
@@ -93,6 +92,7 @@ section p {
 
   .section-body {
     order: 2;
+    padding: 0 1rem;
   }
 
   .section-icon {
@@ -103,6 +103,20 @@ section p {
   .wrapper {
     flex-wrap: nowrap;
     align-items: center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .section-letter,
+  .section-icon {
+    max-width: 17%;
   }
 
 }
