@@ -29,20 +29,17 @@ img {
 
 .wrapper {
   background-color: #e5c30a;
-  position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding: 1.3rem 1.3rem 0;
+  padding: 1.3rem;
   margin: 0 auto;
 }
 
 .section-body {
   z-index: 1;
-  position: absolute;
-  top: 100%;
-  left: 0;
+  order: 3;
   background-color: #e5c30a;
-  padding: 0 1.3rem 1.3rem;
   max-width: 45em;
 }
 
@@ -58,7 +55,7 @@ p {
 
 .section-letter,
 .section-icon {
-  max-width: 9em;
+  max-width: 50%;
 }
 
 @media only screen and (min-width: 25em) {
